@@ -5,5 +5,8 @@
     <RepositoryUrl>https://github.com/cristinamanum/TestRepo.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
-
+  <ItemGroup>
+    <!-- Required -->
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-*" PrivateAssets="All"/>
+  </ItemGroup>
 </Project>
